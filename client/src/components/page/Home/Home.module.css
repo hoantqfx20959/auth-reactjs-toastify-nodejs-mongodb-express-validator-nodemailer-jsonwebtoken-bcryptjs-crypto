@@ -1,0 +1,52 @@
+.categories {
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.itemCategories {
+  padding: 2px;
+  text-align: center;
+}
+
+.itemCategories a {
+  text-decoration: none;
+  color: var(--color-gray-500);
+}
+
+.itemCategories a:hover,
+.itemCategories a:active {
+  color: var(--color-yellow-500);
+}
+
+.imgCategories {
+  width: 100%;
+}
+
+.itemsList {
+  font-style: italic;
+}
+
+.item {
+  padding: 2px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item :hover,
+.item :active {
+  color: var(--color-yellow-500);
+}
+
+@media screen and (max-width: 768px) {
+  .imgCategories {
+    width: auto;
+  }
+}

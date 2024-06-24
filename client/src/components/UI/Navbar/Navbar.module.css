@@ -1,0 +1,85 @@
+.navbar {
+  height: 7vh;
+  font-style: italic;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  align-items: center;
+  color: var(--color-gray-500);
+}
+
+.list2 {
+  justify-content: end;
+  align-items: center;
+}
+
+.icon {
+  color: var(--color-gray-500);
+}
+
+.list a {
+  text-decoration: none;
+  color: var(--color-gray-500);
+}
+
+.list a:hover,
+.list a.active,
+.btn:hover {
+  color: var(--color-yellow-500);
+}
+
+.btn {
+  padding: 0;
+  border: none;
+  background: none;
+  font-style: italic;
+  color: var(--color-gray-500);
+}
+
+.icon {
+  margin-right: 0.25rem;
+}
+
+.relative {
+  position: relative;
+  margin-right: 0.5rem;
+}
+
+.cartNumber {
+  position: absolute;
+  top: -5px;
+  left: 55px;
+
+  font-size: 10px;
+  font-style: normal;
+  background-color: var(--color-yellow-200);
+  color: var(--color-gray-500);
+  padding: 1px 3px;
+  border-radius: 50%;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

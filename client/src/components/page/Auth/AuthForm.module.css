@@ -1,0 +1,19 @@
+.pageContent {
+}
+
+.form {
+  width: 35%;
+  height: 50vh;
+  margin-top: 3rem;
+}
+
+.formItem {
+  width: 100%;
+  margin-bottom: 0.7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.formItem input {
+  height: 2rem;
+}
